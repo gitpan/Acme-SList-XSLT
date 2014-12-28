@@ -1,9 +1,7 @@
 package Acme::SList::XSLT;
-
+$Acme::SList::XSLT::VERSION = '0.03';
 use strict;
 use warnings;
-
-our $VERSION = '0.02';
 
 my ($mod_xslt, $mod_xml);
 
@@ -23,7 +21,7 @@ sub module { $mod_xslt; }
 sub new { $mod_xslt->new; }
 
 package Acme::SList::XML;
-
+$Acme::SList::XML::VERSION = '0.03';
 sub module { $mod_xml; }
 
 sub new { $mod_xml->new; }
